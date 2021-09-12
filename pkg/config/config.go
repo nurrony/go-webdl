@@ -10,7 +10,7 @@ type Config struct {
 	Concurrency int
 
 	// output filename can have absolute directory path
-	OutFilename    string
+	OutFilename string
 
 	// The buffer size in KiB to copy from response body
 	CopyBufferSize int
